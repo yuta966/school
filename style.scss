@@ -1,0 +1,320 @@
+body{
+    margin:0;
+
+}
+h1,h2,h3,h4,h5,p,ul,li{
+
+    margin:0;
+    padding:0;
+}
+
+li{
+    list-style:none;
+    padding:1px 0 1px 0;
+}
+a{
+    display:inline-block;
+    text-decoration: none;
+
+}
+a:visited{
+    color: black;
+}
+
+
+
+ .header{
+    height:165px;
+    width:100%;
+}
+.header-logo{
+    height:60px;
+    padding:25px 0;
+    margin:0 auto;
+    width:990px;
+
+}
+
+.header-navi{
+    height:55px;
+    width:100%;
+    background-color: cornflowerblue;
+    box-shadow: 0px 4px black;
+
+}
+.navis{
+    width:990px;
+    height: 54px;
+    margin:0 auto;
+
+
+}
+
+.navi{
+    float:left;
+    margin-top: 5px;
+    line-height: 54px;
+    width:19%;
+    text-align: center;
+    height: 45px;
+    display: inline-block;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+
+
+}
+.navi a{
+
+    font-size:21px;
+    color:white;
+    text-align:center;
+
+}
+.top-wrapper{
+    height: 320px;
+    padding-top:20px;
+    margin:0 auto;
+    width:990px;
+    border-radius: 20px;
+}
+.slid{
+    display: none;
+}
+.slid img{
+    border-radius: 20px;
+
+}
+.active{
+    display:inline-block;
+}
+.type-wrapper-inner{
+    margin:0 auto;
+    width:990px;
+}
+.type-wrapper{
+    height:1200px;
+    width:100%;
+    margin-top:20px;
+}
+//メインの左側
+.type-wrapper-left{
+    float:left;
+    padding:10px;
+    height:579px;
+    border:1px solid black;
+    border-radius: 10px;
+}
+.list-a{
+    background-color:#F2F2F2;
+    padding:12px 0 8px 0;
+
+}
+.list-a li{
+    text-align: left;
+
+}
+.list-a a{
+    display:block;
+    width: 95%;
+    padding:3px 4px 2px 3px;
+}
+.line{
+    border-bottom:1px dashed rgb(0, 140, 255);
+}
+.line a{
+    color: black;
+
+}
+
+
+
+.list-b{
+    padding:12px 0 8px 0;
+    border-bottom:1px dashed black;
+}
+.list-b li{
+    text-align: left;
+}
+.list-b a{
+    float:right;
+}
+
+.access{
+    height:108px;
+    padding:12px 0 8px 0;
+}
+.access-left{
+    float:left;
+}
+.access-right{
+    float:right;
+}
+
+
+
+//メインの右側
+.type-wrapper-right{
+    float:right;
+    height:934px;
+    width:700px;
+    .content a{
+        font-size:12px;
+        float:right;
+        margin:0px 10px 0 0;
+    }
+    .type-wrapper-right{
+        float:right;
+        height:934px;
+        width:700px;
+    }
+
+    .style-content{
+        height:298px;
+        margin-top:30px;
+        border-radius: 10px;
+    }
+
+    .style-content-title{
+        background-color:rgb(0, 162, 255);
+        height:57px;
+        color:white;
+        line-height: 57px;
+        text-align: center;
+    }
+
+    .study-content{
+        height:298px;
+        margin-top:30px;
+        border:1px solid rgba(21, 35, 233, 0.664);
+        border-radius: 10px;
+    }
+
+    .study-content-wrapper{
+        margin-top:15px;
+        height: 199px;
+        float:left ;
+        border:1px solid rgba(21, 35, 233, 0.664);
+        display:inline-block;
+        width:33%;
+    }
+
+    .study-content-img {
+        height:133px;
+    }
+
+    .study-content-text{
+        height: 43px;
+    }
+    .study-content-text-time{
+        height: 21px;
+    }
+
+
+    .content-title{
+        height:50px;
+        background-color:rgba(21, 35, 233, 0.664);
+        border-radius:10px 10px 0 0 ;
+        line-height: 50px;
+        text-align: center;
+    }
+    .content-title h2{
+        color:white;
+
+    }
+    .content-text{
+        height:248px;
+    }
+    //--------お知らせ--------------------------
+    .message-contents{
+        height:219px;
+        width:100%;
+        margin-top:20px;
+    }
+    .message-title{
+        border-left: 10px solid black;
+    }
+    .message-title h3{
+        padding:0 0 0 15px;
+        margin-bottom: 5px;
+        height: 27px;
+    }
+    .messages{
+        border-top: 2px solid black;
+    }
+
+    .message-content-wrapper{
+        height: 191px;
+        width: 24%;
+        float:left;
+        padding:0 2px;
+    }
+
+    .message-content-img{
+        height:107px;
+        margin-top:8px;
+
+
+    }
+    .message-content-text{
+        height: 43px;
+
+    }
+    .message-content-text-time{
+        height:21px;
+
+    }
+
+    //--新着----------
+
+    .new-contents{
+        height:219px;
+        width:100%;
+        margin-top:20px;
+    }
+    .new-title{
+        border-left: 10px solid black;
+    }
+    .new-title h3{
+        padding:0 0 0 15px;
+        margin-bottom: 5px;
+        height: 27px;
+    }
+
+    .new-content{
+        border-top: 2px solid black;
+
+    }
+
+    .new-content-wrapper{
+        height: 191px;
+        width: 24%;
+        float:left;
+        padding:0 2px;
+    }
+
+    .new-content-img{
+        height:107px;
+        margin-top:8px;
+    }
+
+    .new-content-text{
+        height: 43px;
+
+    }
+    .new-content-text-time{
+        height:21px;
+
+    }
+}
+
+.footer {
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+.footer .footer-left {
+    padding: 10px;
+}
+
+
